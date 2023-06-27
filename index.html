@@ -1,7 +1,7 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-US">
   <head>
-    <!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7HG61RSGQ0"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -18,330 +18,486 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Resume</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-    }
-    h1 {
-      color: #333333;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    h2 {
-      color: #333333;
-      font-size: 18px;
-      margin-bottom: 10px;
-    }
-    p {
-      margin-bottom: 5px;
-    }
-    ul {
-      margin: 0;
-      padding-left: 20px;
-    }
-	table {
-      border-collapse: collapse;
-      width: 50%;
-    }
-    th, td {
-      border: 1px solid #dddddd;
-      text-align: left;
-      padding: 8px;
-    }
-    th {
-      background-color: #f2f2f2;
-    }
-    .section {
-      margin-bottom: 30px;
-    }
-    .section-title {
-      font-weight: bold;
-      text-transform: uppercase;
-	  
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Material Resume</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
+    </noscript>
+    <link href="css/font-awesome/css/all.min.css?ver=1.2.1" rel="stylesheet">
+    <link href="css/mdb.min.css?ver=1.2.1" rel="stylesheet">
+    <link href="css/aos.css?ver=1.2.1" rel="stylesheet">
+    <link href="css/main.css?ver=1.2.1" rel="stylesheet">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
   </head>
-  <body>
-  <h1>Resume</h1>
-
-  <div class="section">
-    <h2 class="section-title">Personal Information</h2>
-	<table>
-		<tr>
-			<td>
-				<strong>Gui Miow Wan (Mandy)</strong><br/> 
-				A-13-08 Tiara Mutiara 2 <br/> A-13-08, 141, Jalan Puchong, <br/> 58200 Kuala Lumpur.<br/> 
-				+6016-658 9241 <br/> 
-				+65-90862047 <br/> 
-				miowwan.gui@gmail.com <br/> 
-			</td>
-			<td>
-			 
-			</td>
-		</tr>
-	</table>
+  <body class="bg-light" id="top">
+    <header class="d-print-none">
+      <div class="container text-center text-lg-left">
+        <div class="pt-4 clearfix">
+          <h1 class="site-title mb-0">Gui Miow Wan (Mandy)</h1>
+          <div class="site-nav"> 
+            <nav role="navigation">
+              <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="#about" title="About"><span class="menu-title">About</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#skills" title="Skills"><span class="menu-title">Skills</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#experience" title="Experience"><span class="menu-title">Experience</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#education" title="Education"><span class="menu-title">Education</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio" title="Portfolio"><span class="menu-title">Portfolio</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#references" title="References"><span class="menu-title">References</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#contact" title="Contact"><span class="menu-title">Contact</span></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="page-content">
+      <div class="container">
+<div class="resume-container">
+  <div class="shadow-1-strong bg-white my-5" id="intro">
+    <div class="bg-info text-white">
+      <div class="cover bg-image"><img src="images/header-background.jpg"/>
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);backdrop-filter: blur(2px);">
+          <div class="text-center p-5">
+            <div class="avatar p-1"><img class="img-thumbnail shadow-2-strong" src="images/mandy.jpg" width="160" height="160"/></div>
+            <div class="header-bio mt-3">
+              <div data-aos="zoom-in" data-aos-delay="0">
+                <h2 class="h1">Gui Miow Wan (Mandy)</h2>
+                <p>Masters of Data Science at University of Malaya | Business System Analyst at ChampionX</p>
+              </div>
+              <div class="header-social mb-3 d-print-none" data-aos="zoom-in" data-aos-delay="200">
+                <nav role="navigation">
+                  <ul class="nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/miow-wan-mandy-gui/" title="LinkedIn"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/mandymiowwan" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="d-print-none"><a class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3" href="guimiowwan-resume.pdf.pdf" data-aos="fade-right" data-aos-delay="700">Download CV</a><a class="btn btn-info btn-lg shadow-sm mt-1" href="#contact" data-aos="fade-left" data-aos-delay="700">Hire Me</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <div class="section">
-    <h2 class="section-title">About Myself</h2>
-    <p>Optimistic thinker. Always believe that nothing is impossible. I am looking forward to new challenges with an open mind—a dependable person who is excellent at time management.  <br/> 
-	I am looking for a change to the Data Science field and applying and contributing my Data Science knowledge.  </p>
+  <div class="shadow-1-strong bg-white my-5 p-5" id="about">
+    <div class="about-section">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="h2 fw-light mb-4">About Me</h2>
+		  <p>Optimistic thinker. Always believe that nothing is impossible. I am looking forward to new challenges with an open mind—a dependable person who is excellent at time management.</p>
+		  <p>I am looking for a change to the Data Science field and applying and contributing my Data Science knowledge.</p>
+        </div>
+        <div class="col-md-5 offset-lg-1">
+          <div class="row mt-2">
+            <h2 class="h2 fw-light mb-4">Bio</h2>
+          
+            <div class="col-sm-5">
+              <div class="pb-2 fw-bolder"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Email</div>
+            </div>
+            <div class="col-sm-7">
+              <div class="pb-2">miowwan.gui@gmail.com</div>
+            </div>
+            
+            <div class="col-sm-5">
+              <div class="pb-2 fw-bolder"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Phone</div>
+            </div>
+            <div class="col-sm-7">
+              <div class="pb-2">+6016 - 658 9241 (MY) <br/> +65 - 9086 2047 (SG)</div>
+            </div>
+            <div class="col-sm-5">
+              <div class="pb-2 fw-bolder"><i class="fas fa-map-marker-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Address</div>
+            </div>
+            <div class="col-sm-7">
+              <div class="pb-2">A-13-08 Tiara Mutiara 2 <br/> A-13-08, 141, Jalan Puchong, <br/>58200 Kuala Lumpur.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <div class="section">
-    <h2 class="section-title">Summary</h2>
-    <table>
-		<tr>
-			<td>
-				<strong>Status</strong>
-			</td>
-			<td>
-				Malaysian / Singapore Permanent Resident
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<strong>Specialization</strong>
-			</td>
-			<td>
-				IT/Computer - Software 
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<strong>Highest Education </strong>
-			</td>
-			<td>
-				Bachelor's Degree in Computer Science/Information Technology 
-			</td>
-		</tr>
-		<tr>
-			<td colspan=2>
-				<strong>I am currently pursuing a Master of Data Science at the University of Malaya. </strong>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<strong>Anticipated Graduation </strong>
-			</td>
-			<td>
-				July 2023 
-			</td>
-		</tr>
-		
-	</table>
-	
+  <div class="shadow-1-strong bg-white my-5 p-5" id="skills">
+    <div class="skills-section">
+      <h2 class="h2 fw-light mb-4">Professional Skills</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="mb-3"><span class="fw-bolder">Python Programming </span>
+            <div class="progress my-2 rounded" style="height: 20px">
+              <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
+            </div>
+          </div>
+          <div class="mb-3"><span class="fw-bolder">R Programming </span>
+            <div class="progress my-2 rounded" style="height: 20px">
+              <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
+            </div>
+          </div>
+          <div class="mb-3"><span class="fw-bolder">Power BI</span>
+            <div class="progress my-2 rounded" style="height: 20px">
+              <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
+            </div>
+          </div>
+          <div class="mb-3"><span class="fw-bolder">Tableau</span>
+            <div class="progress my-2 rounded" style="height: 20px">
+              <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Elementary</div>
+            </div>
+          </div>
+		  <div class="mb-3"><span class="fw-bolder">Microsoft SQL Server </span>
+            <div class="progress my-2 rounded" style="height: 20px">
+              <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
+            </div>
+          </div>
+		  <div class="mb-3"><span class="fw-bolder">Microsoft Azure</span>
+            <div class="progress my-2 rounded" style="height: 20px">
+              <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Intermediate  </div>
+            </div>
+          </div>
+		  <div class="mb-3"><span class="fw-bolder">Google Cloud Platform </span>
+            <div class="progress my-2 rounded" style="height: 20px">
+              <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Intermediate  </div>
+            </div>
+          </div>
+		  <div class="mb-3"><span class="fw-bolder">SAS Enterprise Miner </span>
+            <div class="progress my-2 rounded" style="height: 20px">
+              <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Elementary</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mb-3"><span class="fw-bolder">Microsoft Powerapps </span>
+            <div class="progress my-2 rounded" style="height: 20px">
+              <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Advance</div>
+            </div>
+          </div>
+          <div class="mb-3"><span class="fw-bolder">Microsoft Power Automate </span>
+            <div class="progress my-2 rounded" style="height: 20px">
+              <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Advance</div>
+            </div>
+          </div>
+          <div class="mb-3"><span class="fw-bolder">Sharepoint Online </span>
+            <div class="progress my-2 rounded" style="height: 20px">
+              <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Advance</div>
+            </div>
+          </div>
+          <div class="mb-3"><span class="fw-bolder">Office 365</span>
+            <div class="progress my-2 rounded" style="height: 20px">
+              <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
+            </div>
+          </div>
+		  <div class="mb-3"><span class="fw-bolder">Octave</span>
+            <div class="progress my-2 rounded" style="height: 20px">
+              <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Elementary </div>
+            </div>
+          </div>
+		  <div class="mb-3"><span class="fw-bolder">Project Management</span>
+            <div class="progress my-2 rounded" style="height: 20px">
+              <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
+            </div>
+          </div>
+		  <div class="mb-3"><span class="fw-bolder">Software Development </span>
+            <div class="progress my-2 rounded" style="height: 20px">
+              <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+  <div class="shadow-1-strong bg-white my-5 p-5" id="experience">
+    <div class="work-experience-section">
+      <h2 class="h2 fw-light mb-4">Work Experience</h2>
+      <div class="timeline">
+        <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
+          <div class="timeline-head px-4 pt-3">
+            <div class="h5">Business Systems Analyst <span class="text-muted h6">at ChampionX SG Service Pte Ltd, Singapore</span></div>
+          </div>
+          <div class="timeline-body px-4 pb-4">
+            <div class="text-muted text-small mb-3">June, 2018 - Present</div>
+            <div>
+			<p>ChampionX: Ecolab's Spin-off of Nalco Champion's Upstream business </p>
+			  <ul>
+				<li>Gather requirements specifications, analyze and provide/suggest possible solutions to business users.</li>
+				<li>Managing projects and performing enhancement/changes to the existing business applications. </li>
+				<li>Liaise with business users throughout the solution development cycle. </li>
+				<li>Translating requirements into functional specifications. </li>
+				<li>Get involved in solution development and work with business users on UAT.</li>
+				<li>Liaise with software vendors on different solutions.</li>
+				<li>Conduct user training on business applications.</li>
+			  </ul>
+			</div>
+          </div>
+        </div>
+        <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
+          <div class="timeline-head px-4 pt-3">
+            <div class="h5"><span class="text-muted h6">New Zealand Working Holiday Program</span></div>
+          </div>
+          <div class="timeline-body px-4 pb-4">
+            <div class="text-muted text-small mb-3">June, 2017 – March, 2018</div>
+            <div>
+			<p>New Zealand Cherry Corp Packhouse – Cherry Grader, Packer <br/>
+				 Dunstan Hills Orchard Packhouse – Cherry Grader <br/>
+				 Underglass (Bombay) Ltd Glasshouse – Picker, De-leafing, Prunning, Pull-out <br/>
+				 Metropolitan Motel – Housekeeping 
+			 </p>
+			  <ul>
+				<li>Developed planning, scheduling and budgeting skills by planning and organizing my year in NZ for work and holidays.</li>
+				<li>Learned how to adapt to unanticipated situations and improvise new plans due to periodic travel mishaps and unexpected events.</li>
 
-  <div class="section">
-    <h2 class="section-title">Skills</h2>
-    <table>
-    <tr>
-      <th>Technology</th>
-      <th>Proficiency Level</th>
-    </tr>
-    <tr>
-      <td>Microsoft PowerApps</td>
-      <td>Advanced</td>
-    </tr>
-    <tr>
-      <td>SharePoint Online</td>
-      <td>Advanced</td>
-    </tr>
-    <tr>
-      <td>Microsoft Power Automate</td>
-      <td>Advanced</td>
-    </tr>
-    <tr>
-      <td>Power BI</td>
-      <td>Intermediate</td>
-    </tr>
-    <tr>
-      <td>Office 365</td>
-      <td>Intermediate</td>
-    </tr>
-    <tr>
-      <td>R Programming</td>
-      <td>Intermediate</td>
-    </tr>
-    <tr>
-      <td>Python Programming</td>
-      <td>Intermediate</td>
-    </tr>
-    <tr>
-      <td>Microsoft SQL Server</td>
-      <td>Intermediate</td>
-    </tr>
-    <tr>
-      <td>Tableau</td>
-      <td>Elementary</td>
-    </tr>
-    <tr>
-      <td>Software Development</td>
-      <td>Elementary</td>
-    </tr>
-    <tr>
-      <td>Project Management</td>
-      <td>Intermediate</td>
-    </tr>
-    <tr>
-      <td>SAS Enterprise Miner</td>
-      <td>Elementary</td>
-    </tr>
-    <tr>
-      <td>Octave</td>
-      <td>Elementary</td>
-    </tr>
-    <tr>
-      <td>Microsoft Azure</td>
-      <td>Elementary</td>
-    </tr>
-    <tr>
-      <td>Google Cloud Platform</td>
-      <td>Elementary</td>
-    </tr>
-  </table>
-	</table>
+			  </ul>
+			</div>
+          </div>
+        </div>
+		<div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
+          <div class="timeline-head px-4 pt-3">
+            <div class="h5">Analyst Programmer <span class="text-muted h6">at Seatech Consulting Group, Singapore</span></div>
+          </div>
+          <div class="timeline-body px-4 pb-4">
+            <div class="text-muted text-small mb-3">Nov, 2013 – May, 2017</div>
+            <div>
+				<ul>
+					<li>AeGIS is a sophisticated integrated insurance system that allows a general insurance company to efficiently administer its day-to-day operations and produce statistical data to manage its risk. Built on proven client-server architecture with an easy-to-use graphical user interface based on Microsoft Windows </li>
+					<li>Perform support to users, issue simulation, analyze root cause and fix issues reported </li>
+					<li>Perform enhancement on the existing module in Aegis</li>
+					<li>Perform issue fixing on the crystal report </li>
+			    </ul>
+			</div>
+          </div>
+        </div>
+        <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="400">
+          <div class="timeline-head px-4 pt-3">
+            <div class="h5">Senior System Engineer <span class="text-muted h6">at Infopro Sdn Bhd, Selangor, Malaysia</span></div>
+          </div>
+          <div class="timeline-body px-4 pb-4">
+            <div class="text-muted text-small mb-3">May, 2013 – Nov, 2013</div>
+            <div>
+				<ul>
+					<li>Banking Solution, ICBA system, PL/SQL developer</li>
+					<li>Responsible for developing store procedure/package for backend systems such as End of Day, Pre-End of Day, and Post-End of Day of deposit module, which has three main sub-modules: current account, saving account and fix-deposit account</li>
+					<li>Perform unit testing, integration testing and DB2 compatibility	</li>
+					<li>Prepare elaboration for End of Day, Pre-End of Day, and Post-End of Day of deposit module </li>
+				</ul>
+			</div>
+          </div>
+        </div>
+		<div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
+          <div class="timeline-head px-4 pt-3">
+            <div class="h5">Software Implementation: Technical Consultant <span class="text-muted h6">at Accenture Solutions Sdn Bhd, Selangor, Malaysia</span></div>
+          </div>
+          <div class="timeline-body px-4 pb-4">
+            <div class="text-muted text-small mb-3">Apr, 2011 – Apr, 2013</div>
+            <div>
+				<ul>
+					<li>Developing a mobile application that allows a salesperson to take orders on their mobile device and upload the details to the office back-end system in the distributor centre.  </li>
+					<li>Responsible for developing and enhancement in Sales Force Automation (SFA) and Distributor Management Systems (DMS).  </li>
+					<li>Perform unit testing and issue simulation, analyze root causes, fix reported issues, and provide customer support.</li>
+					<li>Perform Deployment and set-up on the production server.</li>
+			    </ul>
+			</div>
+          </div>
+        </div>
+		<div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
+          <div class="timeline-head px-4 pt-3">
+            <div class="h5">Internship Program <span class="text-muted h6">at Cyansys Sdn Bhd, Kuala Lumpur, Malaysia</span></div>
+          </div>
+          <div class="timeline-body px-4 pb-4">
+            <div class="text-muted text-small mb-3">Apr, 2010 – Sep, 2010</div>
+            <div>
+				<ul>
+					<li>C/AL (Client Application Language) used in the Client/Server Integrated Development Environment(C/SIDE) included with Microsoft Dynamics NAV.</li>
+				</ul>
+			</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <div class="section">
-    <h2 class="section-title">Work Experience</h2>
-    <div>
-      <h3>ChampionX SG Service Pte Ltd, Singapore</h3>
-      <p><strong><i>June 2018 - Present</i>, Business Systems Analyst </strong></p>
-	  <p>ChampionX: Ecolab's Spin-off of Nalco Champion's Upstream business </p>
-      <ul>
-        <li>Gather requirements specifications, analyze and provide/suggest possible solutions to business users.</li>
-        <li>Managing projects and performing enhancement/changes to the existing business applications. </li>
-        <li>Liaise with business users throughout the solution development cycle. </li>
-        <li>Translating requirements into functional specifications. </li>
-        <li>Get involved in solution development and work with business users on UAT.</li>
-        <li>Liaise with software vendors on different solutions.</li>
-        <li>Conduct user training on business applications.</li>
-      </ul>
+  <div class="shadow-1-strong bg-white my-5 p-5" id="education">
+    <div class="education-section">
+      <h2 class="h2 fw-light mb-4">Education</h2>
+      <div class="timeline">
+        <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="0">
+          <div class="timeline-head px-4 pt-3">
+            <div class="h5">Master's Degree in Data Science <span class="text-muted h6">from University of Malaya, Malaysia</span>          </div>
+          </div>
+          <div class="timeline-body px-4 pb-4">
+            <div class="text-muted text-small mb-3">2021 - 2023</div>
+            <div></div>
+          </div>
+        </div>
+        <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="200">
+          <div class="timeline-head px-4 pt-3">
+            <div class="h5">Bachelor's Degree in Computer Science <span class="text-muted h6">from Campbell University, USA</span>          </div>
+          </div>
+          <div class="timeline-body px-4 pb-4">
+            <div class="text-muted text-small mb-3">2007 - 2011</div>
+            <div></div>
+          </div>
+        </div>
+        <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="400">
+          <div class="timeline-head px-4 pt-3">
+            <div class="h5">Advanced Diploma in Computer Science and Computer Mathematics <span class="text-muted h6">from Tunku Abdul Rahman College (TARC), Malaysia</span>          </div>
+          </div>
+          <div class="timeline-body px-4 pb-4">
+            <div class="text-muted text-small mb-3">2007 - 2011</div>
+            <div></div>
+          </div>
+        </div>
+      </div>
     </div>
-	
-	<div>
-      <h3>New Zealand Working Holiday Program </h3>
-      <p><strong><i>June 2017 – March 2018</i></strong> </p>
-	  <p>New Zealand Cherry Corp Packhouse – Cherry Grader, Packer <br/>
-		 Dunstan Hills Orchard Packhouse – Cherry Grader <br/>
-		 Underglass (Bombay) Ltd Glasshouse – Picker, De-leafing, Prunning, Pull-out <br/>
-		 Metropolitan Motel – Housekeeping 
-	  </p>
-      <ul>
-        <li>Developed planning, scheduling and budgeting skills by planning and organizing my year in NZ for work and holidays.</li>
-        <li>Learned how to adapt to unanticipated situations and improvise new plans due to periodic travel mishaps and unexpected events.</li>
-
-      </ul>
-    </div>
-	
-	<div>
-      <h3>Seatech Consulting Group, Singapore </h3>
-      <p><strong><i>Nov 2013 – May 2017</i>, Analyst Programmer </strong></p>
-      <ul>
-        <li>AeGIS is a sophisticated integrated insurance system that allows a general insurance company to efficiently administer its day-to-day operations and produce statistical data to manage its risk. Built on proven client-server architecture with an easy-to-use graphical user interface based on Microsoft Windows </li>
-        <li>Perform support to users, issue simulation, analyze root cause and fix issues reported </li>
-        <li>Perform enhancement on the existing module in Aegis</li>
-        <li>Perform issue fixing on the crystal report </li>
-      
-      </ul>
-    </div>
-	
-	<div>
-      <h3>Infopro Sdn Bhd, Selangor, Malaysia </h3>
-      <p><strong><i>May 2013 – Nov 2013</i>, Senior System Engineer </strong></p>
-      <ul>
-        <li>Banking Solution, ICBA system, PL/SQL developer</li>
-        <li>Responsible for developing store procedure/package for backend systems such as End of Day, Pre-End of Day, and Post-End of Day of deposit module, which has three main sub-modules: current account, saving account and fix-deposit account</li>
-        <li>Perform unit testing, integration testing and DB2 compatibility	</li>
-        <li>Prepare elaboration for End of Day, Pre-End of Day, and Post-End of Day of deposit module </li>
-       
-      </ul>
-    </div>
-	
-	<div>
-      <h3>Accenture Solutions Sdn Bhd, Selangor, Malaysia </h3>
-      <p><strong><i>Apr 2011 – Apr 2013</i>, Software Implementation: Technical Consultant</strong></p>
-      <ul>
-        <li>Developing a mobile application that allows a salesperson to take orders on their mobile device and upload the details to the office back-end system in the distributor centre.  </li>
-        <li>Responsible for developing and enhancement in Sales Force Automation (SFA) and Distributor Management Systems (DMS).  </li>
-        <li>Perform unit testing and issue simulation, analyze root causes, fix reported issues, and provide customer support.</li>
-        <li>Perform Deployment and set-up on the production server.</li>
-      
-      </ul>
-    </div>
-	
-	<div>
-      <h3>Cyansys Sdn Bhd, Kuala Lumpur, Malaysia </h3>
-      <p><strong><i>Apr 2010 – Sep 2010</i>, Internship Program</strong></p>
-      <ul>
-        <li>C/AL (Client Application Language) used in the Client/Server Integrated Development Environment(C/SIDE) included with Microsoft Dynamics NAV.</li>
- 
-      </ul>
-    </div>
-    <!-- Repeat the above section for each work experience -->
   </div>
-
-  <div class="section">
-    <h2 class="section-title">Languages</h2>
-		<table>
-		<tr>
-		  <th>Language</th>
-		  <th>Proficiency Level</th>
-		</tr>
-		<tr>
-		  <td>English</td>
-		  <td>Fluent</td>
-		</tr>
-		<tr>
-		  <td>Mandarin</td>
-		  <td>Native</td>
-		</tr>
-		<tr>
-		  <td>Bahasa Malaysia</td>
-		  <td>Proficient</td>
-		</tr>
-		<tr>
-		  <td>Cantonese</td>
-		  <td>Proficient</td>
-		</tr>
-		<tr>
-		  <td>Hokkien</td>
-		  <td>Proficient</td>
-		</tr>
-	  </table>
+  <div class="shadow-1-strong bg-white my-5 p-5 d-print-none" id="portfolio">
+    <div class="portfolio-section">
+      <h2 class="h2 fw-light mb-4">Portfolio</h2>
+      <div class="row g-0">
+        <div class="col-md-6"><a href="https://github.com/MandyMiowWan/HotelReviewClassification" target="_blank"><img class="img-fluid" src="images/DataScienceProject-SentimentAnalysis.png" width="800" height="500"/></a></div>
+        <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+          <div class="m-4 mt-md-2">
+            <p class="text-teal text-small">Python / Jupyter Notebook / Data Science / Machine Learning</p>
+            <h3>Data Science Project </h3>
+            <p class="text-muted">Classifying 5-Star Hotel Guest Reviews Using Sentiment Analysis <br/>
+			Going through the whole Data Science Pipeline
+			</p>
+          </div>
+        </div>
+      </div>
+      <div class="row g-0 portfolio-reverse">
+        <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+          <div class="m-4 mt-md-2 text-end">
+            <p class="text-teal text-small">Power BI / Visualization </p>
+            <h3>Power BI Dashboard</h3>
+            <p class="text-muted">Power BI Dashboard of issue ticket insights for IT department.
+			</p>
+          </div>
+        </div>
+        <div class="col-md-6"><a href="Power BI Dashboard - KACE Insights.pdf" target="_blank"><img class="img-fluid" src="images/PowerBIDashboard.png" width="800" height="500"/></a></div>
+      </div>
+      <div class="row g-0">
+        <div class="col-md-6"><a href="https://dribbble.com/" target="_blank"><img class="img-fluid" src="images/PowerApp.png" width="800" height="500"/></a></div>
+        <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+          <div class="m-4 mt-md-2">
+            <p class="text-teal text-small">Frontend / HTML / CSS / JavaScript</p>
+            <h3>E-Commerce Website</h3>
+            <p class="text-muted">Built highly performant website for an E-commerce Portal. Worked with back-end team to timely deliver codebase in HTML, CSS and modern JavaScript.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <div class="section">
-    <h2 class="section-title">Education</h2>
-    <div>
-      <h3>University of Malaya, Malaysia </h3>
-      <p><strong>Degree:</strong> Master's Degree in Data Science </p>
-      <p><strong>Anticipated Graduation Date: </strong> July 2023 </p>
+  <div class="shadow-1-strong bg-white my-5 p-5" id="references">
+    <div class="reference-section">
+      <h2 class="h2 fw-light mb-4">References</h2>
+      <div class="row"> 
+        <div class="col-md-6">
+          <div class="d-flex mb-2">
+            <div class="avatar"><img src="images/reference-image-1.jpg" width="60" height="60"/></div>
+            <div class="header-bio m-3 mb-0">
+              <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0">Aiyana</h3>
+              <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">CEO / Web Design Company</p>
+            </div>
+          </div>
+          <div class="d-flex"><i class="text-secondary fas fa-quote-left"></i>
+            <p class="lead mx-2" data-aos="fade-left" data-aos-delay="100">Walter displays exemplary professionalism and is able to take on challenges. He learns quickly and is an asset to any team.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex mb-2">
+            <div class="avatar"><img src="images/reference-image-2.jpg" width="60" height="60"/></div>
+            <div class="header-bio m-3 mb-0">
+              <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0">Alexander</h3>
+              <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">Front-end Developer / Web Design Company</p>
+            </div>
+          </div>
+          <div class="d-flex"><i class="text-secondary fas fa-quote-left"></i>
+            <p class="lead mx-2" data-aos="fade-left" data-aos-delay="100">Walter is a great co-worker and problem solver. He is quick to extend his helping hand and makes a good team player.</p>
+          </div>
+        </div>
+      </div>
     </div>
-	
-	<div>
-      <h3>Campbell University </h3>
-      <p><strong>Degree:</strong> Bachelor's Degree in Computer Science/Information Technology </p>
-      <p><strong>Graduation Year:</strong> April 2011 </p>
-    </div>
-	
-	<div>
-      <h3>Tunku Abdul Rahman College (TARC), Malaysia  </h3>
-      <p><strong>Degree:</strong> Advanced Diploma in Computer Science and Computer Mathematics </p>
-      <p><strong>Graduation Year:</strong> April 2011 </p>
-    </div>
-    <!-- Repeat the above section for each education entry -->
   </div>
-
-    <!-- Optional JavaScript -->
+  <div class="shadow-1-strong bg-white my-5 p-5" id="contact">
+    <div class="contant-section">
+      <h2 class="h2 fw-light text mb-4">Contact</h2>
+      <div class="row mb-4">
+        <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
+          <div class="mt-1">
+            <div class="h6"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> +6016 - 658 9241 (MY) <br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp +65 - 9086 2047 (SG)</div>
+            <div class="h6"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> miowwan.gui@gmail.com</div>
+          </div>
+          <div class="mt-5 d-print-none"><form action="https://formspree.io/miowwan.gui@gmail.com"
+    method="POST">
+  <div class="form-outline mb-4">
+    <input type="text" id="name" class="form-control" required/>
+    <label class="form-label" for="name">Name</label>
+  </div>
+  <div class="form-outline mb-4">
+    <input type="email" id="email" class="form-control" required/>
+    <label class="form-label" for="email">Email address</label>
+  </div>
+  <div class="form-outline mb-4">
+    <textarea class="form-control" style="resize: none;" id="message" rows="4" required></textarea>
+    <label class="form-label" for="message">Message</label>
+  </div>
+  <button class="btn btn-info btn-block mb-4" type="submit">Send</button>
+</form>
+          </div>
+        </div>
+        <!--div class="col-md-7 d-print-none" data-aos="zoom-in" data-aos-delay="100"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d496.9774799129763!2d-73.98032087190995!3d40.765927126473905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f9cfcb250d%3A0xdb570ddcb766e3a8!2sNew%20York%20City%20Center!5e0!3m2!1sen!2sin!4v1614183731149!5m2!1sen!2sin" width="500" height="400" style="border:0;width:100%;" allowfullscreen="" loading="lazy"></iframe>
+		</div-->
+      </div>
+    </div>
+  </div>
+</div></div>
+    </div>
+    <footer class="pt-4 pb-4 text-muted text-center d-print-none">
+      <div class="container">
+        <div class="my-3">
+          <div class="h4">Gui Miow Wan</div>
+          <div class="footer-nav">
+            <nav role="navigation">
+              <ul class="nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/miow-wan-mandy-gui/" title="LinkedIn"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/mandymiowwan" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+                    </li>
+                  </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="text-small">
+          <div class="mb-1">&copy; Material Resume. All rights reserved.</div>
+          <div>Design - <a href="https://templateflip.com/" target="_blank">TemplateFlip</a></div>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/mdb.min.js?ver=1.2.1"></script>
+    <script src="scripts/aos.js?ver=1.2.1"></script>
+    <script src="scripts/main.js?ver=1.2.1"></script>
+	
+	<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+ 
   </body>
 </html>
